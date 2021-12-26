@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=14.18.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "clean": "rm -rf public",
+    "build": "eleventy --passthroughall && find public -type f -name '*.pug' -delete",
+    "dev": "eleventy --serve --passthroughall"
+  },
+  "devDependencies": {
+		"@11ty/eleventy": "^1.0.0-beta.8",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "pug": "^3.0.2"
+  },
+  "//": " "
+}
