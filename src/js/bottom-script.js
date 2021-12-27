@@ -1,6 +1,6 @@
 
 //- SPA Ex:
-console.log('bottom-script.js')
+console.log('js/bottom-script.js')
 
 SPArouter.init(onNavigate)
 
